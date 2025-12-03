@@ -6,6 +6,13 @@ create table products(
 	stock int
 );
 
+INSERT INTO products (name, category, price, stock) VALUES
+('Laptop Dell', 'Electronics', 1500.00, 5),
+('Chuột Logitech', 'Electronics', 25.50, 50),
+('Bàn phím Razer', 'Electronics', 120.00, 20),
+('Tủ lạnh LG', 'Home Appliances', 800.00, 3),
+('Máy giặt Samsung', 'Home Appliances', 600.00, 2);
+
 -- 1. Thêm sản phẩm mới: 'Điều hòa Panasonic', category 'Home Appliances', giá 400.00, stock 10
 insert into products(name, category, price, stock) values
 ('Điều hoà Panasonic', 'HOme Appliances', 400.00, 10);
